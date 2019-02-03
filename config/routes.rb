@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+
+  get 'hello_world', to: 'dumblab#hello_world' #as "dumblab#hello_world" 
+
+
+  get 'dumblab/hello_world'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
